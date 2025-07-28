@@ -32,7 +32,7 @@ replies = {
     "neutral": "I'm here for you. How are you feeling?"
 }
 
-# ✅ Improved detection of local African languages using full words only
+# Improved detection of local African languages using full words only
 def detect_language(text):
     try:
         igbo_keywords = ["obi", "ụ", "anyị", "ụtụtụ", "na-eme", "ụtụtụ ọma"]
@@ -53,7 +53,7 @@ def detect_language(text):
     except:
         return 'en'
 
-# 🧠 Main chatbot logic
+# Main chatbot logic
 def multilingual_chatbot(user_input):
     try:
         # 1. Detect language
@@ -89,32 +89,32 @@ def multilingual_chatbot(user_input):
     except Exception as e:
         print(f"❌ Something went wrong: {e}")
 
-# 🚀 Run the chatbot
+# Run the chatbot
 if __name__ == "__main__":
     user_input = input("Type your message in English, Yoruba, Hausa, or Igbo: ")
     multilingual_chatbot(user_input)
 
-# 🚀 Run the chatbot
+# Run the chatbot
 if __name__ == "__main__":
     user_input = input("Type your message in English, Yoruba, Hausa, or Igbo: ")
     multilingual_chatbot(user_input)
 
-# 🚀 Run the chatbot
+# Run the chatbot
 if __name__ == "__main__":
     user_input = input("Type your message in English, Yoruba, Hausa, or Igbo: ")
     multilingual_chatbot(user_input)
 
-# 🚀 Run the chatbot
+# Run the chatbot
 if __name__ == "__main__":
     user_input = input("Type your message in English, Yoruba, Hausa, or Igbo: ")
     multilingual_chatbot(user_input)
 
-# 🚀 Run the chatbot
+# Run the chatbot
 if __name__ == "__main__":
     user_input = input("Type your message in English, Yoruba, Hausa, or Igbo: ")
     multilingual_chatbot(user_input)
 
-# 🚀 Run the chatbot
+# Run the chatbot
 if __name__ == "__main__":
     user_input = input("Type your message in English, Yoruba, Hausa, or Igbo: ")
     multilingual_chatbot(user_input)
